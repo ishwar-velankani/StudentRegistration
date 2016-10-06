@@ -1,0 +1,23 @@
+Details
+<p>
+  <strong>Name:</strong>
+  <%= @student.name %>
+</p>
+<p>
+  <strong>Roll no:</strong>
+  <%= @student.id %>
+</p>
+
+ 
+<p>
+  <strong>BloodGroup:</strong>
+  <%= @student.bloodgroup %>
+</p>
+
+<p>
+  <strong>Department:</strong>
+  <%= @student.department %>
+</p>
+
+<%= link_to 'Back', students_path %>
+<%= link_to 'Edit', edit_student_path(@student) %>
